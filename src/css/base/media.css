@@ -1,0 +1,32 @@
+.image {
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.image1 {
+    height: 50vmax;
+}
+
+.image2 {
+    height: 50vmax;
+}
+
+.image3 {
+    height: 50vmax;
+}
+
+.image4 {
+    height: 50vmax;
+}
+
+.image5 {
+    height: 50vmax;
+}
+
+img {
+    /* image responsive, largeur maxi */
+    max-width: 100%;
+    /* hauteur "auto" */
+    height: auto;
+}
