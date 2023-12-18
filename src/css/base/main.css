@@ -73,12 +73,6 @@ img {
     text-decoration: none;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: floralwhite
-}
 
 .caroussel_lien:hover {
     background-color: rgb(12, 9, 19);
