@@ -1,60 +1,69 @@
 .header {
     width: 100vw;
-    
 }
 
 .headband {
     display: flex;
-    justify-content: baseline;
+    justify-content: space-between;
     align-items: center;
     background-color: #574027;
     background: linear-gradient(50deg, #574027, black);
-
+    padding: 0rem 1rem;
 }
 
 
 .logosite {
     width: 65px;
     height: 100px;
-    padding-left: 2px;
+    /* padding-left: 2px;
     padding-right: 9px;
     padding-top: 10px;
-    margin-left: 25px;
+    margin-left: 25px; */
 }
 
 .titresite {
     font-family: 'Nanum Myeongjo', serif;
     font-size: 32px;
     color: #DDA15E;
-    margin-right: 15px;
-
+    /* margin-right: 15px; */
 
 }
 
 .menulogo {
-    padding-left: 10px;
+    /* padding-left: 10px; */
     width: 53px;
-    margin-left: 10px;
+    /* margin-left: 10px;
     margin-right: 10px;
-    margin-top: 25px;
+    margin-top: 25px; */
     height: 53px;
-
 }
 
 .logo_bouton {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
 
+.logosite {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
 }
 
 .bouton {
     width: 40px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     background : none;
     border: none;
     color: #ffffff;
     font-size: 25px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.headband__left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 
@@ -65,7 +74,7 @@
     right: -100%;
     transition: right 0.5s;
     top: 0;
-    z-index: 5;
+    z-index: 4;
     background: linear-gradient(340deg,#DDA15E -80%, black);
 
     display: flex;
