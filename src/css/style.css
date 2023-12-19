@@ -4,3 +4,4 @@
 @import "./base/media.css";
 @import "./vendors/normalize.css";
 @import "./fonts/fonts.css";
+@import url(/src/css/components/homecard.css);

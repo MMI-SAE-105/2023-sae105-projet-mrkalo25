@@ -76,7 +76,6 @@
 }   
 
 .croixmenu {
-    position: ;
     cursor: pointer;
     margin-right: 30px;
     margin-top: 10px;
@@ -111,5 +110,6 @@
 }
 
 .citation__line {
-    border: 2px solid #000;
+    border: 1.5px solid #000;
+    margin-bottom: 3rem;
 }
