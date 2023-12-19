@@ -15,26 +15,18 @@
 .logosite {
     width: 65px;
     height: 100px;
-    /* padding-left: 2px;
-    padding-right: 9px;
-    padding-top: 10px;
-    margin-left: 25px; */
+
 }
 
 .titresite {
     font-family: 'Nanum Myeongjo', serif;
     font-size: 32px;
     color: #DDA15E;
-    /* margin-right: 15px; */
-
+    
 }
 
 .menulogo {
-    /* padding-left: 10px; */
     width: 53px;
-    /* margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 25px; */
     height: 53px;
 }
 
@@ -52,12 +44,11 @@
 
 .bouton {
     width: 40px;
-    /* margin-left: 25px; */
     background : none;
     border: none;
     color: #ffffff;
     font-size: 25px;
-    /* padding-bottom: 20px; */
+
 }
 
 .headband__left {
@@ -102,21 +93,6 @@
     list-style-type: none;
 }
 
-/* 
-.menulist {
-    list-style-type: none;
-    margin-top: 130px;
-
-}
-
-.lignemenu {
-    width: 38vmax;
-    margin-left: 39px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-
-}
-*/
 .textmenu {
     text-decoration: none;
     font-size: 35px;
@@ -125,47 +101,15 @@
     border: none;
 } 
 
-/* 
-.textmenu2 {
-    text-decoration: none;
-    color: #DDA15E;
-    font-size: 35px;
-    margin-left: 43.5px;
-    font-family: 'Marmelad', sans-serif;
-}
-
-.textmenu3 {
-    text-decoration: none;
-    color: #DDA15E;
-    font-size: 35px;
-    margin-left: 119px;
-    font-family: 'Marmelad', sans-serif;
-}
-
-.textmenu4 {
-    text-decoration: none;
-    color: #DDA15E;
-    font-size: 35px;
-    margin-left: 136px;
-    font-family: 'Marmelad', sans-serif;
-}
-
-.textmenu5 {
-    text-decoration: none;
-    color: #DDA15E;
-    font-size: 35px;
-    margin-left: 111px;
-    font-family: 'Marmelad', sans-serif;
-}
-
-
-.ligneh {
-    width: 90vw;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 20px;
-} */
-
 .actif {
     right: 0;
+}
+
+.citation {
+    padding: 0rem 2rem;
+
+}
+
+.citation__line {
+    border: 2px solid #000;
 }
