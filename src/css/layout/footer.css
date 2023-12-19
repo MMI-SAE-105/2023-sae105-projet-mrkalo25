@@ -1,0 +1,52 @@
+.footer {
+    background-color: #DDA15E;
+    background: linear-gradient(230deg, #DDA15E -70%, black);
+    position: relative;
+    margin-top: 3rem;
+    width: 100vw;
+}
+
+.text__footer {
+    color: #DDA15E;
+    width: 230px;
+    padding : 1.5rem
+    
+}
+
+.titre__footer {
+    font-size: 15px;
+    font-family: 'Alef', sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+
+.mini-text__footer {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.logo-titre {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logosite__footer {
+    width: 65px;
+    height: 100px;
+    
+}
+
+.titresite__footer {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 32px;
+    color: #DDA15E;
+    
+}
+
+.mmi__footer {
+    align-self: flex-end;
+}
