@@ -8,30 +8,55 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Glossaire</title>
 </head>
-<body>
+<body x-data="{menuIsOpen: false}">
     <header>
-        <img src="./public/icon/croix.svg" alt="croix menu">
-        <ul>
-            <li>
-                Articles
-            </li>
-            <li>
-                Autres projets
-            </li>
-            <li>
-                À propos
-            </li>
-            <li>
-                Contact
-            </li>
-            <li>
-                Glossaire
-            </li>
-        </ul>
-        <img src="./public/icon/menu.svg" alt="menu logo">
-        <img src="./public/icon/FR.svg" alt="FR">
-        <img src="./public/icon/logosite.svg" alt="logo site">
-        <p>OppenMind</p>
+        <nav class="menu" :class="{actif: menuIsOpen}">
+            <img class="croixmenu" src="/public/icon/croix.svg" alt="croix menu" @click="menuIsOpen = !menuIsOpen">
+            <ul class="menulist">
+                <li>
+                    <a class="textmenu" href="/index.html">Articles</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="/autresprojets.html">Autres projets</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="/apropos.html">À propos</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="/glossaire.html">Glossaire</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+            </ul>
+        </nav>
+        <div class="headband">
+            <div class="headband__left">
+                <a class="headband__logo-link" href="./index.html">
+                    <img class="logosite" src="/public/icon/logosite.svg" alt="logo site">
+                </a>
+                <p class="titresite">OppenMind</p>
+            </div>
+            <div class="logo_bouton">
+                <img class="menulogo" src="/public/icon/menu.svg" alt="menu logo" @click="menuIsOpen = !menuIsOpen">
+                <button class="bouton">FR</button>
+            </div>
+        </div>
     </header>
     <main>
         <h1>Glossaire</h1>
