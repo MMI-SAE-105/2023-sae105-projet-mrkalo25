@@ -1,18 +1,21 @@
-.home-card {
+.home-card  {
     position: relative;
     height: 496px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: linear-gradient(180deg, black 70%);
-    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgb(0, 0, 0));
 }
 
 .home-card__img {
     position: absolute;
     z-index: -1;
     
+    box-shadow: 2.5px 5px 15px black; 
+    
+    
 }
+
 
 .home-card__title {
     color: aliceblue;
@@ -22,6 +25,7 @@
     margin: 0;
     padding-left: 1.5rem;   
     position: relative;
+    z-index: 2;
 }
 
 .home-card__title-styled::before {

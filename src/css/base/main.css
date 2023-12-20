@@ -1,3 +1,7 @@
+body {
+    background-color: #F1EDD2;
+}
+
 .carrousel_parent-ecrans {
     /* aligne horizontalement les enfants */
     display: flex;

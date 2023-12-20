@@ -28,9 +28,12 @@
 }
 
 .logo-titre {
-    position: absolute;
     display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+
+    
 
 }
 
@@ -48,5 +51,8 @@
 }
 
 .mmi__footer {
-    align-self: flex-end;
+    display: flex;
+    position: absolute;
+    top: 80%;        
+    right: 6%;
 }
