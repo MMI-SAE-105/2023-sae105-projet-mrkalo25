@@ -1,16 +1,16 @@
 .home-card  {
     position: relative;
-    height: 496px;
+    height: 433px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    overflow: hidden;
 }
 
 .home-card__img {
     position: absolute;
     z-index: -1;
-    
     box-shadow: 2.5px 5px 15px black; 
     
     

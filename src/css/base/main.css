@@ -116,6 +116,7 @@ body {
     z-index: 2;
     width: 215px;
     margin-left: 1rem;
+    align-self: flex-start;
 }
 
 .article-card__title-styled::after {
@@ -148,22 +149,33 @@ body {
 
 .text__article {
     font-size: 'Monda', sans-serif;
-    padding-left: 2rem;
+    padding: 0rem 2rem;
     font-size: 16px;
-    width: 330px;
     height: 30%;
     text-align: left;
+}
+
+
+.bouton {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .bouton_next {
     background-color: #DDA15E;
     color: #000000;
     text-decoration: none;
-    width: 100px;
     padding: 0.5rem;
     font-size: 25px;
     border-radius: 10px;
-    border: black 2px solid; 
-    
+    border: black 2px solid;
+    margin-right: 0.5rem;
+
 }
 
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

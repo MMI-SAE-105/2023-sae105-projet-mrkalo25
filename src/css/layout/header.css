@@ -1,5 +1,5 @@
 .header {
-    width: 100vw;
+    width: 100%;
 }
 
 .headband {
@@ -48,6 +48,8 @@
     border: none;
     color: #ffffff;
     font-size: 25px;
+    margin-right: 1.5rem;
+    text-decoration: none;
 
 }
 

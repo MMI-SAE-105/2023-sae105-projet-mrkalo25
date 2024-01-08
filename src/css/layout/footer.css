@@ -44,8 +44,7 @@
     display: flex;
     position: absolute;
     top: 15%;
-    right: 10%;
-
+    margin-left: 5rem;
     
 
 }
@@ -53,6 +52,7 @@
 .logosite__footer {
     width: 65px;
     height: 100px;
+    
     
 }
 
