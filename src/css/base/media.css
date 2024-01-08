@@ -103,3 +103,20 @@ img {
     margin-bottom: 10px;
 
 }
+
+.text_carouss2 {
+    background-color: #DDA15E;
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 20px;
+    border-radius: 10px;
+    border: black 2px solid;
+    width: 45%;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
