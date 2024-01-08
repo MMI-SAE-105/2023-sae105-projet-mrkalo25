@@ -12,65 +12,6 @@ body {
     text-align: center;
 }
 
-.carrousel_parent-ecrans {
-    display: flex;
-    width: 100%;
-    max-width: 500px;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-    margin-bottom: 20px;
-
-}
-
-.carrousel_ecran {
-    width: 100%;
-    flex: none;
-    scroll-snap-align: start;
-    background-color: rgb(235, 234, 234);
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.carrousel_ecran figure {
-    margin: 0;
-}
-
-.carrousel {
-    position: relative;
-}
-
-
-.caroussel_liste-liens {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    gap: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.caroussel_lien.actif {
-    background-color: rgb(12, 9, 19)
-}
-
-.caroussel_lien {
-    background-color: royalblue;
-    padding: 10px;
-    border-radius: 7px;
-    color: #fff;
-    text-decoration: none;
-}
-
-
-.caroussel_lien:hover {
-    background-color: rgb(12, 9, 19);
-    color: #fff;
-    text-decoration: none;
-}
 
 .ecriture {
     border: 2px solid #DDA15E;
@@ -171,6 +112,7 @@ body {
     border-radius: 10px;
     border: black 2px solid;
     margin-right: 0.5rem;
+    margin-top: 2rem;
 
 }
 

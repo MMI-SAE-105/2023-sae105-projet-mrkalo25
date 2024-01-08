@@ -114,7 +114,8 @@
 
 .citation__line {
     border: 1.5px solid #000;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
 }
 
 .citation__titre {
