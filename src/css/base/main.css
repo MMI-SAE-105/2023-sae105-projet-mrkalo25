@@ -121,3 +121,15 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+.apropos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_apropos {
+    color: #3A3941;
+    font-size: 24px;
+    margin: 0;
+}
