@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F1EDD2;
 }
@@ -130,7 +134,7 @@ body {
 .video {
     padding: 1rem;
     padding-bottom: 0;
-    width: 90%;
+    width: 100%;
     position: relative;
 
 }
@@ -146,8 +150,20 @@ body {
     font-size: 'Monda', sans-serif;
     padding-left: 2rem;
     font-size: 16px;
-    width: 310px;
+    width: 330px;
     height: 30%;
     text-align: left;
+}
+
+.bouton_next {
+    background-color: #DDA15E;
+    color: #000000;
+    text-decoration: none;
+    width: 100px;
+    padding: 0.5rem;
+    font-size: 25px;
+    border-radius: 10px;
+    border: black 2px solid; 
+    
 }
 
