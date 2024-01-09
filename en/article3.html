@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="icon" href="/public/icon/logosite.svg">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/_redirects">
+    <title>Réplique</title>
+</head>
+<body x-data="{menuIsOpen: false}">
+    <header>
+        <nav class="menu" :class="{actif: menuIsOpen}">
+            <img class="croixmenu" src="/public/icon/croix.svg" alt="croix menu" @click="menuIsOpen = !menuIsOpen">
+            <ul class="menulist">
+                <li>
+                    <a class="textmenu" href="index.html">Articles</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="autresprojets.html">Autres projets</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="apropos.html">À propos</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="glossaire.html">Glossaire</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+            </ul>
+        </nav>
+        <div class="headband">
+            <div class="headband__left">
+                <a class="headband__logo-link" href="index.html">
+                    <img class="logosite" src="/public/icon/logosite.svg" alt="logo site">
+                </a>
+                <p class="titresite">OppenMind</p>
+            </div>
+            <div class="logo_bouton">
+                <img class="menulogo" src="/public/icon/menu.svg" alt="menu logo" @click="menuIsOpen = !menuIsOpen">
+                <a class="bouton" href="#">FR</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="citation">
+            <h1 class="title">Je suis devenu la mort...</h1>
+            <h2 class="citation__titre">Une réplique mémorable d’Oppenheimer</h2>
+            <hr class="citation__line">
+        </div>
+        <article class="article">
+            <h2 class="article-card__title article-card__title-styled">Une réflexion éthique et morale</h2>
+            <p class="text__article">
+                La phrase emblématique du film "Oppenheimer" (2023) de Christopher Nolan, "Je suis devenue la mort, le destructeur de
+                mondes," reflète les dilemmes moraux liés à la création de la bombe atomique. Cette réplique poignante illustre le poids
+                de la responsabilité et les conséquences profondes des actions scientifiques. Elle incite à la réflexion sur la science,
+                le pouvoir et la moralité, tout en démontrant le génie narratif de Nolan. Une phrase qui restera gravée dans la mémoire
+                des spectateurs, suscitant la méditation sur les implications éthiques de la technologie.
+            </p>
+            <img class="imgage_article" src="/public/img/replique2.webp" alt="img réplique 2">
+            <p class="legende-image">Image moment du film</p>
+            <p class="text__article">
+                La force de cette réplique réside dans sa capacité à susciter une réflexion approfondie sur la science, le pouvoir et
+                l’éthique. Non seulement c’est une expression accrocheuse, mais elle sert également de catalyseur aux discussions
+                intellectuelles sur les implications éthiques de la technologie. Il encourage le public à remettre profondément en
+                question les actions des scientifiques et des innovateurs, en soulignant que chaque avancée technologique s'accompagne
+                de choix éthiques décisifs
+            </p>
+            <img class="imgage_article" src="/public/img/replique3.webp " alt="img réplique 3">
+            <p class="legende-image">Image moment du film</p>
+        </article>
+        <article class="article">
+            <h2 class="article-card__title article-card__title-styled">Une réplique iconique ?</h2>
+            <p class="text__article">
+                Cette réplique, par sa profondeur et sa signification, est destinée à rester ancrée dans la mémoire du public bien après
+                la projection du film. Elle va au-delà de l'écran pour devenir une icône culturelle, déclenchant des débats et des
+                réflexions sur les implications éthiques de chaque avancée scientifique. Elle rappelle au public que derrière chaque
+                découverte scientifique significative se cachent des décisions cruciales et des dilemmes moraux qui méritent d'être
+                explorés et débattus.
+            </p>
+            <img class="imgage_article" src="/public/img/replique4.webp" alt="img réplique 4">
+            <p class="legende-image">Image moment du film</p>
+            <p class="text__article">
+                Cette phrase deviendra certainement une icône culturelle, suscitant des discussions et une réflexion sur les
+                implications éthiques de la technologie de chaque avancée scientifique. Elle rappelle au public que derrière chaque
+                avancée scientifique majeure se cachent des choix importants et des dilemmes éthiques.
+            </p>
+        </article>
+        <article class="article">
+            <h2 class="article-card__title article-card__title-styled">Résumé</h2>
+            <p class="text__article">
+                Dans l’ensemble, cette ligne transcende son rôle dans le film pour devenir le point de départ d’une réflexion plus large
+                sur les liens complexes entre sciences, pouvoir et éthique. Il illustre le génie narrateur de Christopher Nolan, capable
+                de captiver l’esprit tout en provoquant une profonde réflexion sur le chemin moral que l’humanité choisit de suivre à
+                l’ère de la technologie.
+            </p>
+        </article>
+        <div class="bouton">
+            <a class="bouton_next" href="article4.html">
+                La musique
+            </a>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="text__footer">
+            <a class="lien__footer" href="autresprojets.html">Autre projet</a>
+            <a class="lien__footer" href="apropos.html"> À propos</a>
+            <a class="lien__footer" href="contact.html">Contact</a>
+            <a class="lien__footer" href="glossaire.html">Glossaire</a>
+        </div>
+        <div class="small_text_footer">
+            <p class="titre__footer">Mention légale :</p>
+            <p class="mini-text__footer">“projet réalisé dans le cadre d’un exercice pédagogique au département MMI de
+                Montbéliard”</p>
+            <p class="titre__footer">Réalisé par</p>
+            <p class="mini-text__footer">Kalan Yilmaz MMI 1 B2 <a class="mail"
+                    href="mailto:kalanyilmaz.05@gmail.com">kalanyilmaz.05@gmail.com</a></p>
+        </div>
+        <div class="logo-titre">
+            <a href="index.html">
+                <img class="logosite__footer" src="/public/icon/logosite.svg" alt="logo site">
+            </a>
+            <p class="titresite__footer">OppenMind</p>
+        </div>
+        <a href="https://butmmi.thomasjeu.fr/#/">
+            <img class="mmi__footer" src="/public/icon/mmi.svg" alt="logo mmi">
+        </a>
+    </footer>
+</body>
+</html>

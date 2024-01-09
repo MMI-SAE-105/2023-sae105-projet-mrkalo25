@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="icon" href="/public/icon/logosite.svg">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/_redirects">
+    <title>Autres projets</title>
+</head>
+<body x-data="{menuIsOpen: false}">
+    <header>
+        <nav class="menu" :class="{actif: menuIsOpen}">
+            <img class="croixmenu" src="/public/icon/croix.svg" alt="croix menu" @click="menuIsOpen = !menuIsOpen">
+            <ul class="menulist">
+                <li>
+                    <a class="textmenu" href="index.html">Articles</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="autresprojets.html">Autres projets</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="apropos.html">À propos</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="glossaire.html">Glossaire</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+            </ul>
+        </nav>
+        <div class="headband">
+            <div class="headband__left">
+                <a class="headband__logo-link" href="index.html">
+                    <img class="logosite" src="/public/icon/logosite.svg" alt="logo site">
+                </a>
+                <p class="titresite">OppenMind</p>
+            </div>
+            <div class="logo_bouton">
+                <img class="menulogo" src="/public/icon/menu.svg" alt="menu logo" @click="menuIsOpen = !menuIsOpen">
+                <a class="bouton" href="#">FR</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="citation">
+            <h1 class="article-card__title article-card__title-styled">Autres projets</h1>
+            <h2 class="citation__titre">Voici les autres sites web de la classe MMI groupe B2</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="#">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">Mordor's Direction</h2>
+            <h2 class="text_apropos2"> Roy Jérémy</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="#">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">The long line</h2>
+            <h2 class="text_apropos2"> Bosetti Angelo</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="#">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">Le Labyrinthe:</h2>
+            <h2 class="text_apropos">le Remède Mortel</h2>
+            <h2 class="text_apropos2"> Guyot Liloue</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="https://across-the-spider-web.rdamage.fr">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">Across the spider-web</h2>
+            <h2 class="text_apropos2"> Damage Rayane</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="#">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">Hakuna Matata</h2>
+            <h2 class="text_apropos2"> KEBAILI Tasnim</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="https://master--quiet-daifuku-f99cbd.netlify.app/fr/">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">Unclouded by hate</h2>
+            <h2 class="text_apropos2"> QERCHI Imrane</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="#">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">Kill This Rabbit</h2>
+            <h2 class="text_apropos2"> PAUTRAT Marion</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="https://allaboutskyfall.mathisliegeon.fr">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">My name is Bond, James Bond</h2>
+            <h2 class="text_apropos2"> Liegeon Mathis</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="#">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">Oppenheimer</h2>
+            <h2 class="text_apropos2"> Moretti Tony</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="#">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">The Pianiste</h2>
+            <h2 class="text_apropos2"> Gachod Pierre</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="#">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">Why so serious</h2>
+            <h2 class="text_apropos2"> Martinez Logan</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="https://abyssal-wave.scharasse.fr/">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">Abyssal Wave</h2>
+            <h2 class="text_apropos2"> Charasse Samuel</h2>
+            <hr class="citation__line">
+        </div>
+        <div class="apropos__container">
+            <a href="#">
+                <img class="icone_profil" src="/public/icon/profile.svg" alt="icone de profil">
+            </a>
+            <h2 class="text_apropos">Barbie</h2>
+            <h2 class="text_apropos2"> Thamilselvan Oliventhan</h2>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="text__footer">
+            <a class="lien__footer" href="autresprojets.html">Autre projet</a>
+            <a class="lien__footer" href="apropos.html"> À propos</a>
+            <a class="lien__footer" href="contact.html">Contact</a>
+            <a class="lien__footer" href="glossaire.html">Glossaire</a>
+        </div>
+        <div class="small_text_footer">
+            <p class="titre__footer">Mention légale :</p>
+            <p class="mini-text__footer">“projet réalisé dans le cadre d’un exercice pédagogique au département MMI de
+                Montbéliard”</p>
+            <p class="titre__footer">Réalisé par</p>
+            <p class="mini-text__footer">Kalan Yilmaz MMI 1 B2 <a class="mail"
+                    href="mailto:kalanyilmaz.05@gmail.com">kalanyilmaz.05@gmail.com</a></p>
+        </div>
+        <div class="logo-titre">
+            <a href="index.html">
+                <img class="logosite__footer" src="/public/icon/logosite.svg" alt="logo site">
+            </a>
+            <p class="titresite__footer">OppenMind</p>
+        </div>
+        <a href="https://butmmi.thomasjeu.fr/#/">
+            <img class="mmi__footer" src="/public/icon/mmi.svg" alt="logo mmi">
+        </a>
+    </footer>
+</body>
+</html>

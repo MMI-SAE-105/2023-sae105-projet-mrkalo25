@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="icon" href="/public/icon/logosite.svg">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/_redirects">
+    <title>Glossaire</title>
+</head>
+<body x-data="{menuIsOpen: false}">
+    <header>
+        <nav class="menu" :class="{actif: menuIsOpen}">
+            <img class="croixmenu" src="/public/icon/croix.svg" alt="croix menu" @click="menuIsOpen = !menuIsOpen">
+            <ul class="menulist">
+                <li>
+                    <a class="textmenu" href="index.html">Articles</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="autresprojets.html">Autres projets</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="apropos.html">À propos</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+                <li>
+                    <a class="textmenu" href="glossaire.html">Glossaire</a>
+                </li>
+                <li>
+                    <img class="lignemenu" src="/public/icon/lignemenu.svg" alt="ligne menu">
+                </li>
+            </ul>
+        </nav>
+        <div class="headband">
+            <div class="headband__left">
+                <a class="headband__logo-link" href="index.html">
+                    <img class="logosite" src="/public/icon/logosite.svg" alt="logo site">
+                </a>
+                <p class="titresite">OppenMind</p>
+            </div>
+            <div class="logo_bouton">
+                <img class="menulogo" src="/public/icon/menu.svg" alt="menu logo" @click="menuIsOpen = !menuIsOpen">
+                <a class="bouton" href="#">FR</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="citation">
+            <h1 class="article-card__title article-card__title-styled">Glossaire</h1>
+            <h2 class="citation__titre">Quelques mots complexes</h2>
+            <hr class="citation__line">
+        </div>
+        <article class="article">
+            <h2 class="article-card__title article-card__title-styled">Projet Manhattan</h2>
+            <p class="text__article">
+                Le Projet Manhattan était un programme secret durant la Seconde Guerre mondiale visant à développer la première bombe
+                atomique, qui a finalement été utilisée sur Hiroshima et Nagasaki en 1945.
+            </p>
+        </article>
+        <article class="article">
+            <h2 class="article-card__title article-card__title-styled">Oscars</h2>
+            <p class="text__article">
+                Les Oscars sont des récompenses cinématographiques de renom décernées chaque année pour célébrer l'excellence dans
+                l'industrie du cinéma.
+            </p>
+        </article>
+        <article class="article">
+            <h2 class="article-card__title article-card__title-styled">Nominé</h2>
+            <p class="text__article">
+                Dans le cinéma, un nominé est un candidat / film sélectionné pour un prix tel qu'un Oscar ou un Golden Globe. Les
+                candidats nommés sont en lice pour remporter le prix.
+            </p>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="text__footer">
+            <a class="lien__footer" href="autresprojets.html">Autre projet</a>
+            <a class="lien__footer" href="apropos.html"> À propos</a>
+            <a class="lien__footer" href="contact.html">Contact</a>
+            <a class="lien__footer" href="glossaire.html">Glossaire</a>
+        </div>
+        <div class="small_text_footer">
+            <p class="titre__footer">Mention légale :</p>
+            <p class="mini-text__footer">“projet réalisé dans le cadre d’un exercice pédagogique au département MMI de
+                Montbéliard”</p>
+            <p class="titre__footer">Réalisé par</p>
+            <p class="mini-text__footer">Kalan Yilmaz MMI 1 B2 <a class="mail"
+                    href="mailto:kalanyilmaz.05@gmail.com">kalanyilmaz.05@gmail.com</a></p>
+        </div>
+        <div class="logo-titre">
+            <a href="index.html">
+                <img class="logosite__footer" src="/public/icon/logosite.svg" alt="logo site">
+            </a>
+            <p class="titresite__footer">OppenMind</p>
+        </div>
+        <a href="https://butmmi.thomasjeu.fr/#/">
+            <img class="mmi__footer" src="/public/icon/mmi.svg" alt="logo mmi">
+        </a>
+    </footer>
+</body>
+</html>
