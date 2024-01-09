@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Sans & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radley&family=Raleway:ital,wght@1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@700&display=swap');
 @import "./layout/footer.css";
 @import "./layout/header.css";
 @import "./base/main.css";
@@ -5,3 +9,4 @@
 @import "./vendors/normalize.css";
 @import "./fonts/fonts.css";
 @import url(/src/css/components/homecard.css);
+
